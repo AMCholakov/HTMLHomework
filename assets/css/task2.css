@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+
+hr {
+	color: #b036060
+}
+
+#content {
+	width: 90%;	
+	margin: 0px 5% 0px 5%;
+	overflow: auto;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	background-color: #000080;	
+}
+
+aside {
+	float: left;
+	width: 29%;
+	height: 300px;
+	margin:5px 0 5px 0;
+	background-color: #00cd00;
+}
+
+article {
+	float:right;
+	width: 69%;
+	height: 300px;
+	margin:5px 0 5px 0;
+	background-color: #cd6600;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	clear:both;
+}

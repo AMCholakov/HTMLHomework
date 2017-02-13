@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+@keyframes pulsate{
+	0% { transform: rotate(0deg);}
+	100% {  transform: rotate(1080deg);}
+}
+
+@keyframes rul{
+	0% { transform: rotate(0deg);}
+	100% {  transform: rotate(180deg);}
+}
+
+
+#fon {
+	background-image: url('../images/ruletka.png');
+	width:407px;
+	height:407px;
+	margin: 4em auto;
+}
+
+#animation {
+	width:407px;
+	height:407px;
+	border-radius: 100%;
+	padding: 7.2em;
+	box-sizing: border-box;
+}
+
+#animation img {
+	border: 1px solid black;
+	border-radius: 100%;
+}
+
+#animation:hover {
+	animation: pulsate;
+	animation-duration: 3s;
+	animation-iteration-count:1;
+}
+
+#fon:hover {
+	animation: rul;
+	animation-duration: 6s;
+	animation-iteration-count:1;
+}

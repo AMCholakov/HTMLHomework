@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	margin:1em;	
+}
+h1{
+	background-color: #4483C7;
+	border-bottom: 2px solid black;	
+}
+
+h2 {
+	margin: 5px 5px 5px 5px;
+}
+section {
+	padding: 1px 1px 1px 1px;
+	margin: 10px 5px 10px 5px;
+	outline: 1px solid black;	
+}
+
+h3{
+	color:#FFF;
+	background-color: #538620;
+	margin:0px;
+	padding:0.3em 0.5em;	
+}
+
+p {
+	margin: 0.5em 0 0.5em;
+	text-align: left;
+	color: black;
+	font-size:100%;
+	font-weight:normal;	
+}
+
+.link {
+	color:#666;
+	display:block;
+	font-size:85%;
+	text-decoration: none;	
+}
+
+a.link:hover{
+	color: green;
+}
